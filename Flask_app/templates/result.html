@@ -9,14 +9,14 @@
 	<header>
 		<div class="container">
 		<div id="brandname">
-			ML App
+			Machine Learning App using Flask
 		</div>
-		<h2>Document Title and Topic Prediction For News Articles</h2>
+		<h2>Topic Prediction For News Articles</h2>
 		
 	</div>
 	</header>
 	<p style="color:blue;font-size:20;text-align: center;"><b>Results for Document</b></p>
-	<div class="results">
+	<div class="results" style="text-align: center;">
 
 		
 	{% if prediction == 1%}
@@ -30,7 +30,8 @@
     {% elif prediction == 5%}
 	<h2 style="color:red;">Document topic is Entertainment</h2>
 	{% endif %}
-
+	
+	
 	</div>
 
 </body>
